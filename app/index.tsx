@@ -1,11 +1,7 @@
-import { Image, StyleSheet, Platform, Text, Linking } from 'react-native';
+import { Image, StyleSheet, Platform, Text, Linking, View } from 'react-native';
 
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+
 import { Link } from 'expo-router';
-import { View } from 'react-native-reanimated/lib/typescript/Animated';
 import { StatusBar } from 'expo-status-bar';
 
 export default function HomeScreen() {
