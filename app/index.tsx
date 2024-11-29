@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Platform, Text, Linking, View } from 'react-native';
+import {  Text, View } from 'react-native';
 
 
 import { Link } from 'expo-router';
